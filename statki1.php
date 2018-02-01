@@ -561,11 +561,13 @@ include("kodzik.php");
 </table>
 </div>
 </div>
+<script>
 $('.question').on('click', function() 
 			{
 				$("#pytanka").load('kodzik.php');
 			}
 		});
+</script>
 <div id="prawy1">
 nic
 </div>
