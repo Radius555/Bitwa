@@ -1,0 +1,546 @@
+#calosc
+{
+		width: 1450px;
+		height: 1000px;
+		background-color: green;
+}
+#gora
+{
+		width: 1450px;
+		height: 200px;
+		background-color: #3399ff;
+}
+#menu
+{
+		width: 12%;
+		height: 700px;
+		background-color: blue;
+		float: left;
+		z-index: 3;
+		position: relative;
+}
+@keyframes anim_gra1
+{
+    0%   {background-image: url('tlo.jpg');}
+    25%  {background-image: url('tlo3.png');}
+    50%  {background-image: url('tlo4.png');}
+    75%  {background-image: url('tlo3.png');}
+	100% {background-image: url('tlo.jpg');}
+}
+#gra1
+{
+		width: 74%;
+		height: 700px;
+		background-image: #ccff66;
+		float: left;
+		z-index: 1;
+	    animation-name: anim_gra1;
+        animation-iteration-count: 2000;
+        animation-duration: 12s;
+}
+#menus
+{
+	width: 400px;
+	height: 600px;
+	background-color: #0045A1;
+	float: left;
+	margin-left: 300px;
+	margin-top: 50px;
+	z-index: 3;
+}
+#powrot
+{
+	margin-left: 200px;
+	margin-top: 150px;
+	width: 200px;
+	height: 50px;
+	display: none;
+}
+#powrot1
+{
+	margin-left: 200px;
+	margin-top: 150px;
+	width: 200px;
+	height: 50px;
+	display: block;	
+}
+#powrot3
+{
+	margin-left: 200px;
+	margin-top: 150px;
+	width: 200px;
+	height: 50px;	
+	display: none;
+}
+#powrot4
+{
+	margin-left: 200px;
+	margin-top: 150px;
+	width: 200px;
+	height: 50px;	
+	display: none;
+}
+#powrot5
+{
+	margin-left: 200px;
+	margin-top: 150px;
+	width: 200px;
+	height: 50px;	
+	display: none;
+}
+#powrot6
+{
+	margin-left: 200px;
+	margin-top: 150px;
+	width: 200px;
+	height: 50px;
+	display: none;
+}
+.divek
+{
+	width: 220px;
+	height: 100px;
+	background-color: #006633;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+}
+#z_kompem
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;
+	display: block;
+}
+#z_graczem
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: block;
+}
+.txt
+{
+font-size:	15px;
+color: black;
+}
+#text
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: block;
+}
+#tekst1
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;
+	display: none;	
+}
+#latwy
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;
+	display: none;
+}
+#normalny
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#trudny
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#tekst2
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;
+	display: none;	
+}
+#dwa
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#cztery
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#szesc
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#osiem
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#tekst3
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#niemcyaja
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;
+	display: none;
+}
+#angliaja
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#tekst3a
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#niemcyaja2
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;
+	display: none;
+}
+#angliaja2
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#tekst4
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#hgracz1
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#hgracz2
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#hgracz3
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#hgracz4
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#druzyna1
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#imie1
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#imie2
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#imie3
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#imie4
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#hgracz1a
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#hgracz2a
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#hgracz3a
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#hgracz4a
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#druzyna1a
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#imie1a
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#imie2a
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#imie3a
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#imie4a
+{
+	width: 220px;
+	height: 100px;
+	background-color: #9933cc;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	z-index: 3;	
+	display: none;
+}
+#prawy1
+{
+		width: 14%;
+		height: 700px;
+		background-color: #63ff94;
+		float: left;
+		z-index: 3;
+		position: relative;
+}
+#dol
+{
+		width: 1450px;
+		height: 100px;
+		background-color: #3399ff;
+		float:right;
+		z-index: 3;
+		position: relative;
+}
+#spotka
+{
+		width: 1450px;
+		height: 50px;
+		background-color: #3399ff;
+		z-index: 3;
+		position: relative;
+}

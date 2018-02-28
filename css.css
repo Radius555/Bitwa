@@ -19,6 +19,10 @@
 		z-index: 2;
 		position: relative;
 }
+#kolorek
+{
+	color: #00ff66;
+}
 @keyframes anim_gra1a
 {
     0%   {background-image: url('anglik-tlo.jpg');}
@@ -70,13 +74,13 @@
 }
 @keyframes lot_samolot2
 {
-  0% { transform:translateX(20px) translateY(100px) scale(1); }
-  45% { transform:translateX(580px) translateY(100px) scale(1); }
-  48% { transform:translateX(585px) translateY(100px) scale(1) rotate(10deg); }
-  50% { transform:translateX(590px) translateY(150px) scale(1) rotate(20deg); }
-  52% { transform:translateX(595px) translateY(170px) scale(1) rotate(30deg); }
-  54% { transform:translateX(600px) translateY(190px) scale(1) rotate(40deg); }
-  56% { transform:translateX(605px) translateY(210px) scale(1) rotate(50deg); }
+  0% { transform:translateX(20px) translateY(30px) scale(1); }
+  45% { transform:translateX(580px) translateY(30px) scale(1); }
+  48% { transform:translateX(585px) translateY(30px) scale(1) rotate(10deg); }
+  50% { transform:translateX(590px) translateY(80px) scale(1) rotate(20deg); }
+  52% { transform:translateX(595px) translateY(100px) scale(1) rotate(30deg); }
+  54% { transform:translateX(600px) translateY(120px) scale(1) rotate(40deg); }
+  56% { transform:translateX(605px) translateY(140px) scale(1) rotate(50deg); }
   100% { transform:translateX(950px) translateY(650px) scale(1) rotate(90deg); }
 }
 @keyframes lot_kula
@@ -92,8 +96,8 @@
 }
 @keyframes lot_bombka
 {
-  0%  { transform:translateX(-50px) translateY(100px) scale(1); }
-  50%  { transform:translateX(605px) translateY(-30px) scale(1); }
+  0%  { transform:translateX(-50px) translateY(0px) scale(1); }
+  50%  { transform:translateX(605px) translateY(0px) scale(1); }
   51%  { transform:scale(0); }
   100% { transform:scale(0); }
 }
@@ -137,7 +141,7 @@
 @keyframes anim_pytka
 {
   0% { transform:translateX(100px) translateY(-130px) scale(1); }
-  100% { transform:translateX(100px) translateY(30px) scale(1); }
+  100% { transform:translateX(100px) translateY(0px) scale(1); }
 }
 @keyframes pytanka_znik_anim
 {
@@ -176,8 +180,8 @@
 }
 @keyframes anim_komunikat1
 {
-  0% { transform:translateX(-300px) translateY(0px) scale(1); }
-  50% { transform:translateX(0px) translateY(0px) scale(1); }
+  0% { transform:translateX(-300px) translateY(20px) scale(1); }
+  50% { transform:translateX(0px) translateY(20px) scale(1); }
   57% { transform: scale(1.5); }
   64% { transform: scale(1); }
   71% { transform: scale(1.5); }
@@ -188,8 +192,8 @@
 }
 @keyframes anim_komunikat2
 {
-  0% { transform:translateX(-300px) translateY(0px) scale(1); }
-  40% { transform:translateX(0px) translateY(0px) scale(1); }
+  0% { transform:translateX(-300px) translateY(20px) scale(1); }
+  40% { transform:translateX(0px) translateY(20px) scale(1); }
   57% { transform: scale(1.5); }
   64% { transform: scale(1); }
   71% { transform: scale(1.5); }
@@ -202,7 +206,7 @@
 {
 	width:105px;
 	height:75px;
-	background-image:url('anglik.png');
+	background-image:url('niemiec.png');
 	animation-delay: 0s;
 	animation: lot_samolot1 4.5s;
 	z-index: 0;
@@ -215,7 +219,7 @@
 {
 	width:105px;
 	height:75px;
-	background-image:url('niemiec.png');
+	background-image:url('anglik.png');
 	animation-delay: 0s;
 	animation: lot_samolot2 4.5s;
 	z-index: 1;
@@ -293,14 +297,14 @@
 	width: 850px;
 	float: left;
 	margin-left: 100px;
-	margin-top: -20px;
+	margin-top: 50px;
 	display: none;
 	animation-delay: 0s;
 	z-index: 3;
 	position: relative;
 	animation-play-state: paused;
 	animation: pytanka_anim 0.3s;
-	animation-direction:reverse;
+	animation-direction: reverse;
 }
 #pytka
 {
@@ -317,7 +321,7 @@
 	border-bottom-left-radius: 20px;
 	animation: anim_pytka 1.5s;
 	display: none;
-	margin-top: 60px;
+	margin-top: 30px;
 	margin-left: 90px;
 }
 #OdpA
@@ -383,7 +387,7 @@
 	width: 60%;
 	float: left;
 	z-index: 4;
-	animation: anim_komunikat1 2.8s;
+	animation: anim_komunikat1a 2.8s;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
@@ -398,7 +402,7 @@
 	font-size: 15px;
 	background-color: #ff9900;
 	height: 70px;
-	width: 60%;
+	width: 250px;
 	float: left;
 	z-index: 4;
 	animation: anim_komunikat2 2.8s;
@@ -437,12 +441,12 @@
 		width: 175px;
 		height: 30px;
 		background-color: #FFD966;
+		text-align: center;
+		font-family: calibri;
 		float: left;
 		margin-left: 100px;
 		margin-right: 150px;
 		font-size: 15px;
-		text-align: center;
-		font-family: calibri;
 	
 }
 #tabla
@@ -450,6 +454,7 @@
 	float: left;
 	border: 0px;
 	border-collapse: collapse;
+	margin-top: 50px;
 }
 #tabla td.inny_td
 { 
@@ -745,14 +750,14 @@
 	width: 850px;
 	float: left;
 	margin-left: 100px;
-	margin-top: -90px;
+	margin-top: 50px;
 	display: none;
 	animation-delay: 0s;
 	z-index: 3;
 	position: relative;
 	animation-play-state: paused;
 	animation: pytanka_anim1 0.3s;
-	animation-direction:reverse;
+	animation-direction: reverse;
 }
 #pytka1
 {
@@ -775,18 +780,18 @@
 
 @keyframes lot_samolot1a
 {
-  0% { transform:translateX(-10px) translateY(100px) scale(1); }
+  0% { transform:translateX(-120px) translateY(100px) scale(1); }
   100% { transform:translateX(1090px) translateY(100px) scale(1); }
 }
 @keyframes lot_samolot2a
 {
-  0% { transform:translateX(-120px) translateY(50px) scale(1); }
-  45% { transform:translateX(580px) translateY(50px) scale(1); }
-  48% { transform:translateX(585px) translateY(50px) scale(1) rotate(10deg); }
-  50% { transform:translateX(590px) translateY(100px) scale(1) rotate(20deg); }
-  52% { transform:translateX(595px) translateY(120px) scale(1) rotate(30deg); }
-  54% { transform:translateX(600px) translateY(170px) scale(1) rotate(40deg); }
-  56% { transform:translateX(605px) translateY(210px) scale(1) rotate(50deg); }
+  0% { transform:translateX(20px) translateY(30px) scale(1); }
+  45% { transform:translateX(580px) translateY(30px) scale(1); }
+  48% { transform:translateX(585px) translateY(30px) scale(1) rotate(10deg); }
+  50% { transform:translateX(590px) translateY(80px) scale(1) rotate(20deg); }
+  52% { transform:translateX(595px) translateY(100px) scale(1) rotate(30deg); }
+  54% { transform:translateX(600px) translateY(120px) scale(1) rotate(40deg); }
+  56% { transform:translateX(605px) translateY(140px) scale(1) rotate(50deg); }
   100% { transform:translateX(950px) translateY(650px) scale(1) rotate(90deg); }
 }
 @keyframes lot_kula1
@@ -802,8 +807,8 @@
 }
 @keyframes lot_bombka1
 {
-  0%  { transform:translateX(-50px) translateY(-30px) scale(1); }
-  50%  { transform:translateX(605px) translateY(-30px) scale(1); }
+  0%  { transform:translateX(-50px) translateY(0px) scale(1); }
+  50%  { transform:translateX(605px) translateY(0px) scale(1); }
   51%  { transform:scale(0); }
   100% { transform:scale(0); }
 }
@@ -912,7 +917,7 @@
 {
 	width:105px;
 	height:75px;
-	background-image:url('niemiec.png');
+	background-image:url('anglik.png');
 	animation-delay: 0s;
 	animation: lot_samolot1a 4.5s;
 	z-index: 0;
@@ -925,7 +930,7 @@
 {
 	width:105px;
 	height:75px;
-	background-image:url('anglik.png');
+	background-image:url('niemiec.png');
 	animation-delay: 0s;
 	animation: lot_samolot2a 4.5s;
 	z-index: 1;
@@ -1011,7 +1016,7 @@
 	font-size: 15px;
 	background-color: #ff9900;
 	height: 70px;
-	width: 60%;
+	width: 250px;
 	float: left;
 	z-index: 4;
 	animation: anim_komunikat2a 2.8s;
@@ -1091,15 +1096,15 @@
 		height: 700px;
 		background-color: 00ccaa;
 		float: left;
-		display: none;	
+		display: none;
+		margin-left: 70px;		
 }
 #tabla1
 {
 	float: left;
 	border: 0px;
 	border-collapse: collapse;
-	margin-left: 100px;
-	margin-top: -60px;
+	margin-top: 50px;
 	position: relative;
 }
 #tabla1 td.inny_td
@@ -1131,7 +1136,6 @@
 		height: 700px;
 		background-color: 00ccaa;
 		float: left;
-		margin-top: -50px;
 		margin-left: 75px;
 		display: none;
 }
